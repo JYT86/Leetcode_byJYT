@@ -1,5 +1,8 @@
 class Solution {
 public:
+
+// use dynamic programming method to solve the Leetcode91 decode_ways
+// the link of the question: https://leetcode.cn/problems/decode-ways/
     int numDecodings(string s) {
         vector<int> v(s.length());
         if(s.length() == 1){
