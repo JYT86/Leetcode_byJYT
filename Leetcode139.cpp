@@ -4,6 +4,8 @@ using namespace std;
 
 class Solution {
 public:
+# using dynamic programming to solve the problem
+# the link of the question: https://leetcode.cn/problems/word-break/    
     bool wordBreak(string s, vector<string>& wordDict) {
         int min_len = INT_MAX;
         int max_len = 0;
