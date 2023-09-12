@@ -3,7 +3,8 @@
 #include <math.h>
 using namespace std;
 
-
+// this code realises the KMP algorithm which can be used to solve matching problems of string.
+// the problem link on leetcode:https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/
 
 vector<int> get_next_array(string target){
     int n = target.size();
